@@ -32,7 +32,7 @@ switch( $_COOKIE[ 'security' ] ) {
 }
 
 require_once DVWA_WEB_PAGE_TO_ROOT . "vulnerabilities/sqli/source/{$vulnerabilityFile}";
-
+// hi 
 // Is PHP function magic_quotee enabled?
 $WarningHtml = '';
 if( ini_get( 'magic_quotes_gpc' ) == true ) {
