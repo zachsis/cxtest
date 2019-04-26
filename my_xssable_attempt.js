@@ -1,0 +1,1 @@
+$('hello').innerHTML(window.location)
